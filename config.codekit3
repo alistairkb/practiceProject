@@ -2,6 +2,11 @@
 "AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
 "buildSteps": [
 	{
+		"name": "New \"Process Certain Files\" Step",
+		"stepType": 0,
+		"uuidString": "A96E3D61-AAAD-41EA-A650-BD13459840D8"
+		},
+	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
 		"uuidString": "596C63DF-753E-4F83-AFA9-6BE1752081DB"
@@ -22,7 +27,7 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/stylesheets\/index.scss": {
+	"\/stylesheets\/_index.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -30,8 +35,21 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/build\/stylesheets\/index.css",
+		"oAP": "\/build\/stylesheets\/_index.css",
 		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/stylesheets\/variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/stylesheets\/variables.css",
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		}
@@ -42,10 +60,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 540046716,
-	"displayValue": "practiceProject",
+	"displayValue": "projects",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540047688
+	"lastBuiltDate": 540065527
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
