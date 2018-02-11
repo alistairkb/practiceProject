@@ -36,7 +36,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/build\/stylesheets\/_index.css",
-		"oF": 0,
+		"oF": 1,
 		"oS": 0,
 		"uL": 1
 		},
@@ -63,7 +63,7 @@
 	"displayValue": "projects",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540065527
+	"lastBuiltDate": 540079977
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2214,7 +2214,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": ""
+	"websiteRelativeRoot": "\/build"
 	},
 "settingsFileVersion": "3"
 }

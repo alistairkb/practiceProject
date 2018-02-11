@@ -1,12 +1,11 @@
 @import 'variables';
 
 h1 {
-
   color: $white;
   font-family: $font;
 }
 body {
-  background: $pink;
+  background: $black;
 }
 
 //menu
@@ -19,12 +18,12 @@ h1 {
   padding: 0 0 8px 10px;
 .logo-1 {
   font-family: $font;
-  font-weight: 700;
+  font-weight: $bold;
   font-size: 20px;
 }
 .logo-2 {
   font-family: $font;
-  font-weight: 400;
+  font-weight: $normal;
   font-size: 20px;
 }
 }
