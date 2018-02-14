@@ -12,7 +12,7 @@
 		"uuidString": "596C63DF-753E-4F83-AFA9-6BE1752081DB"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/build": {
 		"ft": 65536,
@@ -63,7 +63,7 @@
 	"displayValue": "projects",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540079977
+	"lastBuiltDate": 540081374
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -71,6 +71,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

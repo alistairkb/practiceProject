@@ -1,29 +1,92 @@
 @import 'variables';
 
 h1 {
-  color: $white;
-  font-family: $font;
-}
-body {
-  background: $black;
+    color: $pink;
+    font-family: $font;
 }
 
-//menu
 header {
   background-color: $black;
+  position: fixed;
+  width: 100%;
+    h1 {
+        color: $white;
+        font-family: $font;
+    }
+
+  a {
+    color: $white;
+    font-family: $font;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  li {
+    display: inline-block;
+    padding: 15px;
+  }
 }
 
+body {
+    background: $pink;
+}
+//menu
+.first-container {
+  padding-top: 40px;
+}
+
+.menu {
+  display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: stretch;
+    vertical-align: middle;
+}
+
+
+
 h1 {
-  display: inline-block;
-  padding: 0 0 8px 10px;
-.logo-1 {
-  font-family: $font;
-  font-weight: $bold;
-  font-size: 20px;
+    display: inline-block;
+    padding: 0 0 8px 10px;
+
+    .logo-1 {
+        font-family: $font;
+        font-weight: $bold;
+        font-size: 20px;
+    }
+
+    .logo-2 {
+        font-family: $font;
+        font-weight: $normal;
+        font-size: 20px;
+    }
 }
-.logo-2 {
-  font-family: $font;
-  font-weight: $normal;
-  font-size: 20px;
+
+.central-column {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
 }
+
+.content-container {
+    background: $white;
+    height: 100vh;
+    @media screen and (min-width: 1000px) and (max-width: 1500px) {
+        p {
+            font-size: 40px;
+        }
+    }
+}
+.content-container-odd {
+    background: $black;
+    color: $white;
+    height: 100vh;
+    @media screen and (min-width: 1000px) and (max-width: 1500px) {
+        p {
+            font-size: 40px;
+        }
+    }
 }
