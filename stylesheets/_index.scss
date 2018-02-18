@@ -1,9 +1,5 @@
 @import 'variables';
-
-h1 {
-    color: $pink;
-    font-family: $font;
-}
+@import 'basics';
 
 header {
   background-color: $black;
@@ -12,7 +8,8 @@ header {
     h1 {
         color: $white;
         font-family: $font;
-    }
+
+  }
 
   a {
     color: $white;
@@ -20,29 +17,16 @@ header {
     text-decoration: none;
     font-weight: 700;
   }
+  ul {
+    text-align: right;
+  }
   li {
     display: inline-block;
     padding: 15px;
+    @media screen and (max-width: 670px) {
+      display: block;
   }
-}
-
-body {
-    background: $pink;
-}
-//menu
-.first-container {
-  padding-top: 40px;
-}
-
-.menu {
-  display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 2fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: stretch;
-    vertical-align: middle;
+  }
 }
 
 
@@ -61,32 +45,5 @@ h1 {
         font-family: $font;
         font-weight: $normal;
         font-size: 20px;
-    }
-}
-
-.central-column {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 1000px;
-}
-
-.content-container {
-    background: $white;
-    height: 100vh;
-    @media screen and (min-width: 1000px) and (max-width: 1500px) {
-        p {
-            font-size: 40px;
-        }
-    }
-}
-.content-container-odd {
-    background: $black;
-    color: $white;
-    height: 100vh;
-    @media screen and (min-width: 1000px) and (max-width: 1500px) {
-        p {
-            font-size: 40px;
-        }
     }
 }

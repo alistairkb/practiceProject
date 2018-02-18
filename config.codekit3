@@ -40,6 +40,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stylesheets\/basics.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/stylesheets\/basics.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stylesheets\/variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -63,7 +76,7 @@
 	"displayValue": "projects",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540081374
+	"lastBuiltDate": 540648356
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
