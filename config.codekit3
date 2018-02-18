@@ -14,10 +14,162 @@
 	],
 "creatorBuild": "26268",
 "files": {
+	"\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/.htaccess",
+		"oF": 0
+		},
+	"\/assets\/404-wallpaper-2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/build\/assets\/404-wallpaper-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/404-wallpaper.png": {
+		"ft": 32768,
+		"iS": 1466060,
+		"oA": 0,
+		"oAP": "\/build\/assets\/404-wallpaper.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/about-me.png": {
+		"ft": 32768,
+		"iS": 455823,
+		"oA": 0,
+		"oAP": "\/build\/assets\/about-me.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/crowd.png": {
+		"ft": 32768,
+		"iS": 510219,
+		"oA": 0,
+		"oAP": "\/build\/assets\/crowd.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/filmaking.png": {
+		"ft": 32768,
+		"iS": 2714897,
+		"oA": 0,
+		"oAP": "\/build\/assets\/filmaking.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/icon-next.png": {
+		"ft": 32768,
+		"iS": 3221,
+		"oA": 0,
+		"oAP": "\/build\/assets\/icon-next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/phone usage.png": {
+		"ft": 32768,
+		"iS": 2193165,
+		"oA": 0,
+		"oAP": "\/build\/assets\/phone usage.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/portfolio.png": {
+		"ft": 32768,
+		"iS": 816471,
+		"oA": 0,
+		"oAP": "\/build\/assets\/portfolio.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/station.png": {
+		"ft": 32768,
+		"iS": 2188844,
+		"oA": 0,
+		"oAP": "\/build\/assets\/station.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/web.png": {
+		"ft": 32768,
+		"iS": 2407020,
+		"oA": 0,
+		"oAP": "\/build\/assets\/web.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/build",
+		"oF": 0
+		},
+	"\/error_pages\/400.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/error_pages\/400.html",
+		"oF": 0
+		},
+	"\/error_pages\/401.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/error_pages\/401.html",
+		"oF": 0
+		},
+	"\/error_pages\/403.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/error_pages\/403.html",
+		"oF": 0
+		},
+	"\/error_pages\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/error_pages\/404.html",
+		"oF": 0
+		},
+	"\/error_pages\/500.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/error_pages\/500.html",
 		"oF": 0
 		},
 	"\/index.html": {
@@ -53,6 +205,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stylesheets\/errors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/stylesheets\/errors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stylesheets\/variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -76,7 +241,7 @@
 	"displayValue": "projects",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540648356
+	"lastBuiltDate": 540657330
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
