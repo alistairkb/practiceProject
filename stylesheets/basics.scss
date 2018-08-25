@@ -1,26 +1,20 @@
 //Fonts
 h1 {
-    color: $pink;
     font-family: $font;
 }
 h2 {
-    color: $black;
     font-family: $font;
 }
 h3 {
-    color: $black;
     font-family: $font;
 }
 h4 {
-    color: $black;
     font-family: $font;
 }
 h5 {
-    color: $black;
     font-family: $font;
 }
 h6 {
-    color: $black;
     font-family: $font;
 }
 p {
@@ -38,14 +32,14 @@ p {
 }
 
 .content-container-wrapper {
-  background: $pink;
+  background: $white-secondary;
 }
 .content-container-odd-wrapper {
   background: $black-secondary;
 }
 .content-container {
-  background: $pink;
-  color: $black;
+  background: $white-secondary;
+  color: $black-secondary;
   height: 100vh;
   @media screen and (min-width: 1000px) and (max-width: 1500px) {
         //Media Query
@@ -53,7 +47,7 @@ p {
 }
 .content-container-odd {
     background: $black-secondary;
-    color: $white;
+    color: $white-secondary;
     height: 100vh;
 }
 .content {
