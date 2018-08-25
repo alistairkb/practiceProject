@@ -23,7 +23,7 @@
 		},
 	"\/assets\/404-wallpaper-2.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 2091717,
 		"oA": 0,
 		"oAP": "\/build\/assets\/404-wallpaper-2.png",
 		"oF": 0,
@@ -34,7 +34,7 @@
 		},
 	"\/assets\/404-wallpaper.png": {
 		"ft": 32768,
-		"iS": 1466060,
+		"iS": 1361444,
 		"oA": 0,
 		"oAP": "\/build\/assets\/404-wallpaper.png",
 		"oF": 0,
@@ -70,17 +70,6 @@
 		"iS": 2714897,
 		"oA": 0,
 		"oAP": "\/build\/assets\/filmaking.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/icon-next.png": {
-		"ft": 32768,
-		"iS": 3221,
-		"oA": 0,
-		"oAP": "\/build\/assets\/icon-next.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -218,6 +207,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stylesheets\/menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/build\/stylesheets\/menu.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/stylesheets\/variables.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -238,10 +240,10 @@
 	},
 "projectAttributes": {
 	"creationDate": 540046716,
-	"displayValue": "projects",
+	"displayValue": "practiceProject",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-owl",
-	"lastBuiltDate": 540657330
+	"lastBuiltDate": 556870694
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
